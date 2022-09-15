@@ -1,6 +1,6 @@
-package com.sparta.bahadir;
+package com.sparta.bahadir.Controller;
 
-public class BinarySort implements Sorter{
+public class BinarySort implements Sorter {
 
     @Override
     public int[] sortArray(int[] arrayToSort) {
@@ -24,8 +24,8 @@ public class BinarySort implements Sorter{
         return arrayToSort;
     }
 
-    static int binarySearch(int a[], int item, int low, int high)
-    {
+    static int binarySearch(int a[], int item, int low, int high) {
+
         while (low <= high) {
             int mid = low + (high - low) / 2;
             if (item == a[mid])

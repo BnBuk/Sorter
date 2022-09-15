@@ -1,4 +1,4 @@
-package com.sparta.bahadir;
+package com.sparta.bahadir.Controller;
 
 public class MergeSort implements Sorter {
     @Override
